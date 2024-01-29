@@ -21,7 +21,7 @@
      ``` cd server ```
 
      
-     ``` docker build -t todo-server ```
+     ``` docker build -t todo-server . ```
 
      
      ``` docker run -it -e MONGO_URL=<YOUR CLOUD MONGO URL> -e JWT_SECRET = <YOUR JWT SECRET KEY> -p 5000:5000 todo-server ```
